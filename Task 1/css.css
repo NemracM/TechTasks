@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "Sharp Sans";
+	-moz-font-feature-settings: "liga=0";
+	-moz-font-feature-settings: "liga" 0;
+	src: url(https://d1eipm3vz40hy0.cloudfront.net/fonts/SHSNMedium.eot);
+	src: url(https://d1eipm3vz40hy0.cloudfront.net/fonts/SHSNMedium.eot?#iefix) format("embedded-opentype"),url(https://d1eipm3vz40hy0.cloudfront.net/fonts/SHSNMedium.woff) format("woff"),url(https://d1eipm3vz40hy0.cloudfront.net/fonts/SHSNMedium.ttf) format("truetype"),url(https://d1eipm3vz40hy0.cloudfront.net/fonts/SHSNMedium.svg#SHSNMedium) format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display:swap
+}
+
+* {
+	font-family: "Sharp Sans", Arial, sans-serif;
+	color: #0c363d;
+}
+
+body {
+	margin: 0;
+}
+
+.box {
+    box-shadow: -1px 1px 11px 2px #00000040;
+	margin: 60px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+}
+
+.box h1, h2, p, input {
+    margin: 10px 40px
+}
+
+.box h2, p {
+    font-size: 15px
+}
+
