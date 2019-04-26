@@ -1,0 +1,50 @@
+h1  {
+    margin-left: 120px;
+}
+
+h2  {
+    font-size: 25px;
+    font-family: Georgia;
+}
+
+.big-box {
+    width: calc(100% - 260px);
+    margin: 0 120px 10px;
+    padding: 10px 20px 0;
+    height: 150px;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: #ffe5cc;
+}
+ 
+#wrap {
+    width: calc(100% - 220px);
+    margin: 20px 120px;
+    height: 180px;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.small-box{
+    width: calc(50% - 50px);
+    background-color: #ffe5cc ;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    padding: 10px 20px 20px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.dis {
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+    font-family: Georgia;
+}
