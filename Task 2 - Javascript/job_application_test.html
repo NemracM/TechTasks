@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/png" href="favicon.ico"/>
 	<link rel="stylesheet" type="text/css" media="screen" href="main.css">
-	<script src="yourScript.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -22,8 +21,8 @@
 					<h2>The best calculator in the world</h2>
 					<p>Edit the JS file so that the calculator below functions (buttons operate and number is styled correctly)</p>
 					<p>When number is less than 10, then it should be red. 10 or more, but less than 20, it should be orange. Everything else should be green</p>
-					<h1>0</h1>
-					<button class="button-add">Add</button>
+					<h1 class="result">0</h1>
+					<button class="button-add" onclick="incrementValue()">Add</button>
     				<button class="button-remove">Remove</button>
 			</div>
 		</div>
@@ -60,4 +59,5 @@
 		</div>
 	
 </body>
+<script src="yourScript.js"></script>
 </html>
