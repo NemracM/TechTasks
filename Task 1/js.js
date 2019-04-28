@@ -20,9 +20,9 @@ function buildSum() {
     var sumAB = document.getElementById('sumab');
 
     if (isNaN(numberA) || isNaN(numberB)) {
-        sumAB.innerText = 'Please insert numbers'
+        sumAB.placeholder= 'Please insert numbers';
     } else {
-        sumAB.value = numberA + numberB
+        sumAB.value = numberA + numberB;
     }
 }
 
